@@ -1,0 +1,28 @@
+{
+  "name": "umairnawaz",
+  "version": "1.1.1",
+  "description": "Umair Nawaz's contact information.",
+  "homepage": "https://github.com/umairnawaz333/npx-umairnawaz",
+  "repository": "github:umairnawaz333/npx-umairnawaz",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo 'Not implemented'",
+    "postversion": "git push && git push --tags",
+    "pub": "node pub.js"
+  },
+  "keywords": [
+    "person",
+    "contact",
+    "npx card",
+    "business card",
+    "card"
+  ],
+  "author": "Umair Nawaz <umair.nawaz1997@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cowsay": "^1.5.0",
+    "prettyjson": "^1.2.1"
+  }
+}
